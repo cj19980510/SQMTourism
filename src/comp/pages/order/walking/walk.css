@@ -1,0 +1,20 @@
+.walk-box {
+  padding-top: 20px;
+}
+
+.walk-box .walk-list ul li {
+  width: 25%;
+  height: 250px;
+  padding: 20px;
+  float: left;
+}
+
+.walk-box .walk-list ul li .walk-img img {
+  width: 250px;
+  height: 180px;
+}
+
+.walk-box .walk-list ul li .walk-dec {
+  padding: 10px 0;
+  color: #000;
+}

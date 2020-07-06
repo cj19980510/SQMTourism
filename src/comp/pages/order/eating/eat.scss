@@ -1,0 +1,25 @@
+.eat-box {
+  padding-top: 20px;
+  .eat-list {
+    ul {
+      li {
+        width: 25%;
+        height: 250px;
+        padding: 20px;
+        // background: yellow;
+        // border: 1px solid grey;
+        float: left;
+        .eat-img {
+          img {
+            width: 250px;
+            height: 180px;
+          }
+        }
+        .eat-dec {
+          padding: 10px 0;
+          color: #000;
+        }
+      }
+    }
+  }
+}

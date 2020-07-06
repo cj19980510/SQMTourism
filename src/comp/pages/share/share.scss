@@ -1,0 +1,258 @@
+.share-container {
+  position: relative;
+  background: rgba(236, 245, 249, 0.5);
+  background: url("/img/sharebg.jpg") no-repeat -50px 0;
+  background-size: 1500px auto;
+  width: 100%;
+  overflow: hidden;
+  .share {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    h2 {
+      font-size: 20px;
+      height: 120px;
+      line-height: 120px;
+    }
+    .note-main {
+      overflow: hidden;
+      // .note-user {
+      //   background: #c3e8ff;
+      //   img {
+      //     width: 170px;
+      //     height: 170px;
+      //   }
+      // }
+      .note-left {
+        width: 170px;
+        margin-right: 20px;
+        height: 400px;
+        float: left;
+
+        ul {
+          background: #265380;
+          margin-bottom: 20px;
+          border-radius: 3px;
+          li {
+            border-bottom: 1px solid #1f4266;
+            height: 40px;
+            line-height: 30px;
+            text-align: center;
+            color: #c8e1fa;
+            padding: 5px 0;
+            a {
+              color: #c8e1fa;
+            }
+          }
+          :last-child {
+            border: none;
+          }
+        }
+      }
+      .note-list {
+        float: left;
+        width: 600px;
+        margin-right: 20px;
+        > ul {
+          width: 100%;
+          .wait {
+            height: 450px;
+            width: 100%;
+            padding: 0 !important;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          > li {
+            margin-bottom: 20px;
+            width: 100%;
+            // height: 200px;
+            background: #265380;
+            padding: 20px;
+            color: #c8e1fa;
+            h3 {
+              overflow: hidden;
+
+              div {
+                float: left;
+
+                margin-right: 20px;
+                .note-tt,
+                b {
+                  font-size: 12px;
+                  margin-right: 20px;
+                }
+                img {
+                  width: 60px;
+                  height: 60px;
+                  border-radius: 50%;
+                }
+                .username {
+                  font-size: 14px;
+                }
+              }
+            }
+            .note-content {
+              padding: 20px 0;
+              font-size: 16px;
+              border-bottom: 1px solid #1f4266;
+            }
+            .note-op {
+              overflow: hidden;
+              // width: 100%;
+              margin: 10px 0;
+              .note-coll {
+                float: right;
+                margin: 0 20px;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                padding: 5px;
+                background: #224b73;
+                color: #fff;
+              }
+            }
+            .comm-list {
+              background: #224b73;
+              ul {
+                background: #224b73;
+                padding: 10px 0;
+                // height: 50px;
+                li {
+                  background: #224b73;
+                  height: 30px;
+                  font-size: 14px;
+                  padding: 0px 0 0 10px;
+                  line-height: 30px;
+                  margin: 0;
+                  span {
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+            .comm-area {
+              margin: 20px 0;
+              height: 100px;
+              textarea {
+                width: 100%;
+                display: block;
+                height: 50px;
+                resize: none;
+                outline: none;
+                background: #265380;
+                // border: none;
+                border: 1px solid #1f4266;
+                padding: 10px;
+                color: #c8e1fa;
+                overflow: hidden;
+              }
+              div {
+                margin: 5px 0;
+                overflow: hidden;
+                .pubbtn {
+                  float: right;
+                  width: 60px;
+                  height: 30px;
+                  background: #439bf3;
+                  border: none;
+                  outline: none;
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+      .note-right {
+        float: left;
+        height: 400px;
+        width: 390px;
+        background: url("/img/share.jpg") no-repeat 0 0;
+        background-size: 390px 400px;
+        position: relative;
+        .note-w {
+          position: absolute;
+
+          width: 100%;
+          height: 350px;
+
+          background: url("/img/note.jpg") no-repeat;
+          background-size: 390px 350px;
+          .ss-mask {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: rgba(0, 0, 0, 0.5);
+            .ss {
+              background: url("/img/ss.png");
+              position: absolute;
+              width: 220px;
+              height: 200px;
+              margin: 0 auto;
+              left: 0;
+              right: 0;
+              top: 70px;
+            }
+          }
+
+          .note-box {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px 0 0;
+            div {
+              margin-bottom: 30px;
+              label {
+                color: #fff;
+              }
+              input {
+                border: none;
+                outline: none;
+                border-radius: 3px;
+                height: 30px;
+                padding-left: 10px;
+              }
+            }
+            textarea {
+              display: block;
+              height: 50px;
+              resize: none;
+              outline: none;
+              width: 300px;
+              height: 240px;
+              border-radius: 10px;
+              background: #9ed5c5;
+              // border: none;
+              // border: 1px solid #1f4266;
+              padding: 10px;
+              color: #333;
+              font-weight: 900;
+              overflow: hidden;
+            }
+          }
+        }
+        .sub-btn {
+          position: absolute;
+          bottom: 0;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          background: #667ec8;
+          width: 100%;
+          color: #c8e1fa;
+        }
+        .note-btn {
+          position: absolute;
+          bottom: 0;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          background: #265380;
+          width: 100%;
+          color: #c8e1fa;
+        }
+      }
+    }
+  }
+}

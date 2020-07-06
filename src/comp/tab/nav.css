@@ -1,0 +1,32 @@
+.header {
+  overflow: hidden;
+  background: rgba(126, 192, 255, 0.9);
+  height: 60px;
+  width: 100%;
+}
+
+.header > .nav {
+  float: left;
+}
+
+.header > .nav li {
+  float: left;
+  padding: 10px 20px;
+}
+
+.header > .nav li a {
+  display: block;
+  line-height: 40px;
+}
+
+.header .islogin {
+  float: right;
+  line-height: 70px;
+  padding-right: 50px;
+  color: #fff;
+}
+
+.header .islogin span {
+  margin: 0 20px;
+  cursor: pointer;
+}

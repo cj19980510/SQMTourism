@@ -1,0 +1,53 @@
+.index-more {
+  //   background: url("./img/bg.jpg");
+  background-image: url(/img/bg.jpg);
+  height: 495px;
+
+  z-index: 100;
+  .wrap {
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    ul {
+      height: 100%;
+      overflow: hidden;
+      li {
+        width: 25%;
+        float: left;
+        // background-color: yellowgreen;
+        height: 100%;
+        h3 {
+          height: 66px;
+          line-height: 46px;
+          padding: 10px 0;
+          position: relative;
+          img {
+            width: 46px;
+            height: 46px;
+            position: absolute;
+            top: 10px;
+            left: 5px;
+          }
+
+          a,
+          i {
+            margin-left: 60px;
+            background: url(/img/sj.png) 0px 5px no-repeat;
+            background-size: 10px 20px;
+            padding-left: 30px;
+            font-size: 24px;
+            color: #000;
+            font-weight: normal;
+            // text-indent: 30px;
+          }
+        }
+        div {
+          img {
+            width: 98%;
+            height: 235px;
+          }
+        }
+      }
+    }
+  }
+}

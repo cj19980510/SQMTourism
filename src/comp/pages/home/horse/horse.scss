@@ -1,0 +1,54 @@
+.index-horse {
+  background-color: #d9ecf3;
+  height: 370px;
+  .wrap {
+    width: 1100px;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    .title {
+      background: url(/img/sqtitle.png) no-repeat;
+      height: 50px;
+      margin: 20px 0;
+    }
+    .horse-box {
+      height: 244px;
+      background: #93c9ed;
+      padding: 25px 0px;
+
+      .left {
+        background: url(/img/left.png) no-repeat 5px 75px;
+        float: left;
+        width: 3%;
+        height: 100%;
+        cursor: pointer;
+      }
+      .horse-img {
+        overflow: hidden;
+        float: left;
+        width: 94%;
+        height: 100%;
+        position: relative;
+        .horse-img-box {
+          width: 2736px;
+          position: absolute;
+          left: 0;
+          img {
+            width: 250px;
+            height: 190px;
+            border: 2px solid #bdbcb8;
+            margin: 0 2px;
+            cursor: pointer;
+          }
+        }
+      }
+      .right {
+        background: url(/img/right.png) no-repeat 5px 75px;
+        float: left;
+        width: 3%;
+        height: 100%;
+        cursor: pointer;
+      }
+    }
+  }
+}

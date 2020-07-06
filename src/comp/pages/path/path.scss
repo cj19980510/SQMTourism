@@ -1,0 +1,85 @@
+.path-container {
+  //   position: absolute;
+  //   top: 400px;
+  background: rgba(236, 245, 249, 0.5);
+  // height: 600px;
+  width: 1300px;
+  margin: 50px auto 0;
+  overflow: hidden;
+  padding: 50px;
+  .path-list {
+    width: 100%;
+    > ul {
+      width: 100%;
+      > li {
+        // height: 400px;
+        border: 1px solid grey;
+        margin-bottom: 50px;
+        //
+        > h3 {
+          padding: 15px 20px;
+          height: 50px;
+          font-size: 20px;
+          border-bottom: 1px solid gray;
+        }
+        > .path-v {
+          border-bottom: 1px solid grey;
+          > h3 {
+            padding: 15px 20px;
+          }
+          > ul {
+            width: 100%;
+            padding: 0px 20px;
+            overflow: hidden;
+
+            > li {
+              float: left;
+              width: 33%;
+              cursor: pointer;
+              margin-bottom: 30px;
+              position: relative;
+              padding: 0 25px;
+              overflow: hidden;
+              img {
+                width: 330px;
+                height: 200px;
+              }
+              span {
+                position: absolute;
+                bottom: 4px;
+                width: 330px;
+                height: 0px;
+                transition: 0.5s;
+                z-index: 1000;
+                left: 25px;
+                color: #fff;
+                text-align: center;
+              }
+              &:hover span {
+                height: 30px;
+                background: rgba(0, 0, 0, 0.5);
+                line-height: 30px;
+              }
+            }
+          }
+        }
+        .path-t {
+          padding: 15px 20px;
+          > p {
+            b {
+              font-size: 18px;
+              font-weight: bolder;
+            }
+            span {
+              font-size: 16px;
+            }
+            i {
+              font-size: 16px;
+              color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}

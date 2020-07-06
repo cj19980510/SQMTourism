@@ -1,0 +1,6 @@
+.layout {
+  background: url(/img/layout.jpg) no-repeat;
+  background-color: #d8ebf2;
+  position: relative;
+  min-width: 375px;
+}

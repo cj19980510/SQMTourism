@@ -1,0 +1,47 @@
+.mynote-container {
+  h2 {
+  }
+  .notelist {
+    overflow: auto;
+    ul {
+      padding: 0px 50px;
+      overflow: auto;
+      .none {
+        height: 200px !important;
+        padding: 0 !important;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      li {
+        // padding: 10px 0;
+        margin: 20px 0;
+        background: #42a0e0;
+        border-radius: 5px;
+        padding: 10px;
+        h3 {
+        }
+        .content-info {
+          height: 100px;
+          position: relative;
+          span {
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+            font-size: 14px;
+          }
+        }
+        .content-foot {
+          overflow: hidden;
+          i {
+            float: right;
+            padding-right: 20px;
+            padding-bottom: 5px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

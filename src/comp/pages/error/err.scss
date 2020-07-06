@@ -1,0 +1,16 @@
+.err-container {
+    // width: 1300px;
+    margin: 0 auto;
+    background: rgba($color: #d9ecf3, $alpha: 1);
+    height: 500px;
+    // text-align: center;
+    position: relative;
+    img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}

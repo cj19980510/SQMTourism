@@ -1,0 +1,35 @@
+.banner {
+  // height: 450px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  .banner-box {
+    img {
+      font-size: 0;
+      width: 100%;
+    }
+  }
+
+  .circle {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    left: 45%;
+    ul {
+      li {
+        float: left;
+        width: 25px;
+        height: 25px;
+        margin: 0 5px;
+        background: #666;
+        border-radius: 50%;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+.dotnow {
+  //   border: none !important;
+  background: none !important;
+  border: 3px solid rgb(196, 173, 173);
+}

@@ -1,0 +1,28 @@
+.footer {
+  height: 250px;
+  background: #42a0e0;
+  .footer-img {
+    text-align: center;
+    padding: 30px 0;
+    img {
+      // width: 1100px;
+      // height: 60px;
+    }
+  }
+  .footer-link {
+    text-align: center;
+    a {
+      font-size: 16px;
+      :hover {
+        text-decoration: underline !important;
+      }
+      padding: 0 10px;
+    }
+  }
+  > p {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 30px;
+  }
+}

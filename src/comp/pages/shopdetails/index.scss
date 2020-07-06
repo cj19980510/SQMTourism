@@ -1,0 +1,133 @@
+.shopdetail-container {
+  //   position: absolute;
+  //   top: 400px;
+  background: rgba(236, 245, 249, 0.8);
+  height: 500px;
+  width: 1300px;
+  margin: 50px auto 20px;
+  overflow: hidden;
+  padding: 50px;
+  color: #333;
+  position: relative;
+  .is-cart {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    left: 400px;
+    top: 100px;
+    z-index: 1000;
+    text-align: center;
+    padding-top: 20px;
+    img {
+      width: 80%;
+      height: 80%;
+      margin-bottom: 10px;
+    }
+    .cfm {
+      width: 40%;
+      background-color: #1e8e42;
+      border-radius: 15px;
+      margin: 0 auto;
+      height: 30px;
+      line-height: 30px;
+      color: #ccc;
+      cursor: pointer;
+    }
+  }
+  h2 {
+    font-size: 20px;
+    // padding: 20px 0;
+    a {
+      color: #333;
+    }
+    position: relative;
+    .cart-img {
+      position: absolute;
+      right: 50px;
+      background: url("/img/cart.png") -110px -158px;
+      // background-size: 40px 40px;
+      width: 36px;
+      height: 36px;
+    }
+  }
+  .split-line {
+    border: 1px solid grey;
+    margin: 20px 0;
+    height: 0;
+  }
+  dt-info {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .shop-box {
+    // background: #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding-left: 25px;
+    .shop-img {
+      float: left;
+      img {
+        width: 400px;
+        height: 300px;
+      }
+    }
+    .shop-info {
+      float: left;
+      margin-left: 200px;
+      width: 500px;
+      height: 430px;
+      // border: 1px solid grey;
+      .shop-name {
+        padding: 10px 0;
+      }
+      .shop-dec {
+        padding: 10px 0;
+      }
+
+      .price {
+        font-size: 30px;
+        color: #d33a31;
+        padding: 10px 0;
+      }
+      .count {
+        input {
+          outline: none;
+          border: none;
+          width: 50px;
+          height: 28px;
+          text-align: center;
+        }
+        button {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      .op-btn {
+        margin: 20px 0;
+        .add-order {
+          width: 160px;
+          height: 50px;
+          outline: none;
+          border: none;
+          border: 1px solid #d33a31;
+          color: #d33a31;
+          font-size: 18px;
+          cursor: pointer;
+        }
+        .add-cart {
+          width: 160px;
+          height: 50px;
+          outline: none;
+          border: none;
+          background: #d33a31;
+          color: #fff;
+          margin-left: 50px;
+          font-size: 18px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

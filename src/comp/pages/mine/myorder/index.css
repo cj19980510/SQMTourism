@@ -1,0 +1,33 @@
+.myorder-container {
+  overflow-x: hidden;
+}
+
+.myorder-container table {
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+.myorder-container table thead tr {
+  border: 1px solid grey;
+}
+
+.myorder-container table thead tr th {
+  padding: 10px 35px;
+  border: 1px solid grey;
+}
+
+.myorder-container table tbody tr {
+  border: 1px solid grey;
+}
+
+.myorder-container table tbody tr td {
+  border: 1px solid grey;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.myorder-container table tbody tr td img {
+  width: 60px;
+  height: 60px;
+}

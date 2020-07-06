@@ -1,0 +1,33 @@
+.header {
+  overflow: hidden;
+  background: rgba(126, 192, 255, 0.9);
+
+  height: 60px;
+  width: 100%;
+  > .nav {
+    float: left;
+    li {
+      float: left;
+      padding: 10px 20px;
+
+      a {
+        display: block;
+        line-height: 40px;
+      }
+    }
+  }
+
+  .islogin {
+    float: right;
+    line-height: 70px;
+    padding-right: 50px;
+    color: #fff;
+    .myzone {
+    }
+    span {
+      margin: 0 20px;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}

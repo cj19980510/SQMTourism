@@ -1,0 +1,18 @@
+.order-container {
+  background: rgba(236, 245, 249, 0.5);
+  min-height: 600px;
+  width: 1300px;
+  margin: 100px auto 0;
+  overflow: hidden;
+  padding: 50px;
+}
+
+.order-container > h2 a {
+  font-size: 18px;
+  padding: 0 10px;
+  color: #333;
+}
+
+.order-container > h2 .cart {
+  float: right;
+}

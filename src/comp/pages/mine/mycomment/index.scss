@@ -1,0 +1,49 @@
+.mycollect-container {
+    .notelist {
+        overflow: auto;
+        ul {
+            padding: 10px 50px;
+            overflow: auto;
+            .none {
+                height: 200px !important;
+                padding: 0 !important;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            li {
+                background: #42a0e0;
+                margin: 20px 0;
+                padding: 10px;
+                h3 {
+                    position: relative;
+                    span {
+                        position: absolute;
+                        right: 20px;
+                        top: 0;
+                        font-size: 16px;
+                        font-weight: normal;
+                    }
+                }
+                .content-info {
+                    height: 100px;
+                    position: relative;
+                    span {
+                        position: absolute;
+                        bottom: 0;
+                        right: 20px;
+                        font-size: 14px;
+                    }
+                }
+                .content-foot {
+                    overflow: hidden;
+                    i {
+                        float: right;
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

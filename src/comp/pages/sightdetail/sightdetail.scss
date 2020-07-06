@@ -1,0 +1,42 @@
+.sightdetail-container {
+  background: rgba(236, 245, 249, 0.5);
+  height: 600px;
+  width: 1200px;
+  margin: 100px auto 0;
+  overflow: hidden;
+  padding: 50px 100px 50px;
+  h2 {
+    font-size: 20px;
+  }
+  .split-line {
+    height: 0;
+    border-bottom: 2px solid grey;
+    margin: 20px 0;
+  }
+  .detail-box {
+    border: 2px solid darkgrey;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    .detail-img {
+      //   width: 300px;
+      img {
+        height: 296px;
+        width: 444px;
+      }
+    }
+
+    .detail-info {
+      //   margin-left: 200px;
+      flex: 1;
+      h3 {
+        font-size: 18px;
+        text-align: center;
+        padding: 10px 0;
+      }
+      p {
+        padding-left: 100px;
+      }
+    }
+  }
+}
